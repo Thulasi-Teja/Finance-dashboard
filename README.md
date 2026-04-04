@@ -1,16 +1,83 @@
-# React + Vite
+# 💰 Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+This project is a simple and interactive **Finance Dashboard UI** built using **React + Vite**.
+It allows users to view financial data, analyze spending patterns, and manage transactions in a clean interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Dashboard Overview
 
-## Expanding the ESLint configuration
+* Total Balance, Income, Expenses cards
+* Expense breakdown using Pie Chart
+* Clean and responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💳 Transactions Section
+
+* View all transactions
+* Search/filter by category
+* Admin can delete transactions
+
+### 👤 Role-Based UI
+
+* Viewer → Can only view data
+* Admin → Can manage (delete) transactions
+* Role switching using dropdown
+
+### 📈 Insights
+
+* Displays top spending category
+* Basic financial insights from data
+
+---
+
+## 🛠️ Tech Stack
+
+* React (Frontend)
+* Vite (Build Tool)
+* Tailwind CSS (Styling)
+* Recharts (Charts)
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│   ├── SummaryCard.jsx
+│   ├── TransactionTable.jsx
+│   ├── Charts.jsx
+│   ├── RoleSwitcher.jsx
+│   └── Insights.jsx
+├── data/
+│   └── mockData.js
+├── App.jsx
+├── main.jsx
+└── index.css
+
+---
+
+## 🌐 Future Improvements
+
+* Add dark mode 🌙
+* Add data persistence (local storage)
+* Add edit transaction feature
+* Add monthly trend charts
+
+---
+
+##  Conclusion
+
+This project demonstrates:
+
+* UI design skills
+* Component-based architecture
+* State management in React
+* Data visualization
+
+---
+
+⭐ Thank you!
