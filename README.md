@@ -55,8 +55,7 @@ src/
 ├── data/
 │   └── mockData.js
 ├── App.jsx
-├── main.jsx
-└── index.css
+└── main.jsx
 
 ---
 
