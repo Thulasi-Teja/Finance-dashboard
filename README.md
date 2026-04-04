@@ -46,6 +46,9 @@ It allows users to view financial data, analyze spending patterns, and manage tr
 ## 📂 Project Structure
 
 src/
+├──screenshots/
+│   ├── dashboard1.png
+│   ├── dashboard2.png   
 ├── components/
 │   ├── SummaryCard.jsx
 │   ├── TransactionTable.jsx
@@ -58,6 +61,15 @@ src/
 └── main.jsx
 
 ---
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](./src/screenshots/dashboard1.png)
+
+### Transactions
+![Transactions](./src/screenshots/dashboard2.png)
+
 
 ## 🌐 Future Improvements
 
