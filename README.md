@@ -43,25 +43,6 @@ It allows users to view financial data, analyze spending patterns, and manage tr
 
 ---
 
-## 📂 Project Structure
-
-src/
-├──screenshots/
-│   ├── dashboard1.png
-│   ├── dashboard2.png   
-├── components/
-│   ├── SummaryCard.jsx
-│   ├── TransactionTable.jsx
-│   ├── Charts.jsx
-│   ├── RoleSwitcher.jsx
-│   └── Insights.jsx
-├── data/
-│   └── mockData.js
-├── App.jsx
-└── main.jsx
-
----
-
 ## 📸 Screenshots
 
 ### Dashboard
@@ -90,5 +71,3 @@ This project demonstrates:
 * Data visualization
 
 ---
-
-⭐ Thank you!
